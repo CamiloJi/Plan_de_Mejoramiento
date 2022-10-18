@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(233, 240, 247);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 3px solid grey;
+    font-family:system-ui;
+    background-color: rgb(233, 233, 233);
+    color: rgba(124, 91, 155, 0.863);
+}
+
+h1{
+    background-color: rgb(233, 233, 233);
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height:150px;
+    width: 100%;
+    border-radius: 30px;
+    border: 3px solid grey;
+    background-color: rgb(233, 233, 233);
+}
+
+.button-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui;
+    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+    border: 3px solid rgba(124, 91, 155, 0.863);
+    border-radius:20px;
+    margin-top: 40px;
+    height: 70px;
+    width: 150px;
+}
+
+.button-container ul{
+    list-style: none;
+}
+
+.button-container ul:hover{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.button-container ul li a{
+    text-decoration: none;
+    background-color: rgb(233, 233, 233);
+}
+
+.button-container ul li a:hover{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.button-container:hover{
+    background-color: rgb(250, 250, 250);
+}
+
+.hifiapps{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height:150px;
+    width: 100%;
+    border-radius: 30px;
+    border: 3px solid grey;
+    background-color: rgb(233, 233, 233);
+    font-family: system-ui;
+    font-size: 30px;
+}
+
+.privio{
+    display: flex;
+    font-family: system-ui;
+    font-size: 30px;
+    justify-content: space-around;
+    margin-top: 20px;
+    height:150px;
+    width: 100%;
+    border-radius: 30px;
+    border: 3px solid grey;
+    background-color: rgb(233, 233, 233);
+}

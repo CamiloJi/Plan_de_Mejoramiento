@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: verdana;
+}
+.sub-body{
+    display: flex;
+    border:40px solid rgb(31, 32, 68);
+    border-radius: 45px;
+    height: 600px;
+    background-color:rgb(31, 32, 68);
+}
+
+aside{
+    display:flex;
+    flex-direction: column;
+    width: 13%;
+    height:600px;
+    align-items: center;
+    background-color: #363853;
+}
+
+
+.user{
+    width:70px;
+    height:70px;
+    border-radius:100%;
+    background-color: rgb(73, 73, 143);
+}
+
+.sect{
+    display: flex;
+    align-items: center;
+    color:rgb(187, 187, 187);
+}
+.sect:hover{
+    color:white;
+}
+.img-asi{
+    width: 12px;
+    height: 12px;
+    border: 8px solid #363853;
+    background-color: rgb(73, 73, 143);   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.line1{
+    margin-left: 50px;
+    height: 30px;
+    justify-content: space-between;
+    display: flex; 
+}
+
+barra-busqueda{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    background-color: rgb(73, 73, 143);
+}
+
+.img-sch{
+    display: flex;
+    width:15px;
+    height: 15px;
+    border:5px solid rgb(73, 73, 143);
+    background-color: #77799c;
+}
+
+.sch{
+    border:none;
+    height:100%;
+    background-color: rgb(73, 73, 143);
+}
+
+.button{
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(73, 73, 143);
+    height: 30px;
+    width: 60px;
+    margin-left: 500px;
+}
+
+.rr{
+    display: flex;
+    background-color: rgb(73, 73, 143);
+    height: 30px;
+    width: 30px;
+
+}
+
+.line2{
+    display: flex;
+    width: 95%;
+    margin: 20px;
+    margin-left: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h1{
+    color: #F9F9FA;
+}
+
+.p-l2{
+    color: #cecece;
+    background-color: #363853;
+    border-left: 20px solid #363853;
+    border-right: 10px solid #363853;
+    align-items: center;
+    display: flex;
+}
+
+.img-l2{
+    width: 13px;
+    height: 13px;
+    border: 8px solid #363853;
+    background-color: rgb(73, 73, 143);  
+}
+
+.subt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #77799c;
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.scroll-main{
+    display: flex;
+    flex-direction: column;
+    color: #cecece;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    border-left: 50px solid rgb(31, 32, 68) ;
+    border-right: 45px solid;
+    justify-content: space-between;
+    
+}
+
+
+.img-user{
+    display: flex;
+    align-items: center;
+}
+
+.status{
+    background-color: #77799c;
+    color: #F9F9FA;
+    border: 2px solid #77799c;
+}
+
+.img-sc{
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        border-radius: 100%;
+        background-color: rgb(73, 73, 143);  
+}
+
+
+
+.username{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-content: space-between;
+    width: 95%;
+    padding: 15px;
+}
+p{
+    text-align: center;
+}
+
+.username:hover{
+    background-color: #77799c;
+}
+
+/* ECHE PRIMO Y ESE ENREDO?
+
+YO VINE A ESTE MUNDO A POBLARLO NO A RESOLVER JEROGLIFICOS joaaaa*/

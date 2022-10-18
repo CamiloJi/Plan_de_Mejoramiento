@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    font-family: Verdana;
+}
+
+.sub-body{
+    display: flex;
+    border: 30px solid #2c2f4e;
+    border-radius: 40px;
+    height: 600px;
+    background-color: #2c2f4e;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #35385c;
+    width: 15%;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: #7679a0;
+    border-radius: 100%;
+    font-family: system-ui;
+    color: #f9f9fa;
+
+}
+#perfil2{
+    display: flex;
+}
+
+.button{
+    background-color: rgb(99, 99, 238);
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    margin-top: 34px;
+}
+
+.sect{
+    display: flex;
+    align-items: center;
+    color:#ebebeb;
+    padding: 13px;
+    gap: 8px;
+}
+
+.sect:hover{
+    background-color: #f9f9fA;
+    border-radius: 20px;
+    color: #35385c;
+}
+
+#icon-aside{
+    margin-left:10px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.line1{
+    height: 30px;
+    justify-content: space-between;
+    display: flex; 
+}
+
+barra-busqueda{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    background-color: #35385c;
+    border: 3px solid #35385c;
+    border-radius: 20px;
+    color: #f9f9fA;
+    gap: 7px;
+}
+
+.sch{
+    border:none;
+    height:100%;
+    background-color: #35385c;
+    color:#F9F9FA;
+    width: 100%;
+}
+
+.sch:focus{
+    outline: none;
+}
+
+
+.sec-en{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+
+select{
+    background-color: #35385c;
+    border-radius: 20px;
+    width: 60px;
+    color: #f9f9fA;
+    border:#35385c;
+}
+
+
+.notificacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35385c;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.button-notificacion{
+    background-color: rgb(99, 99, 238);
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    margin-bottom: 8px;
+}
+
+#not{
+    color: #f9f9fA;
+}
+
+#not-punto{
+    color: red;
+    font-size: 8px;
+    position: absolute;
+    top: 36px;
+    right: 82px;
+}
+
+.gato{
+    border-radius: 100%;
+    width: 30px;
+}
+
+.line2{
+    display: flex;
+    justify-content: space-between;
+    color: #F9F9FA;
+}
+
+
+
+.sec-line2{
+    display: flex;
+    width: 120px;
+    height: 32px;   
+}
+
+.sl2{
+    display: flex;
+    gap: 20px;
+}
+
+.scroll-main{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    gap: 45px;
+}
+
+
+
+.scroll-main:hover {
+    scrollbar-color: rgba(0,153,204, 1) transparent;
+  }
+  @-moz-document url-prefix() {
+    .scroll-main {
+     padding-right: 8px;
+    }
+  }
+  /*Webkit*/
+  .scroll-main::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  .scroll-main::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  .scroll-main::-webkit-scrollbar-thumb {
+    background-color: rgba(0,153,204, 0.05);
+  }
+  .scroll-main:hover::-webkit-scrollbar-thumb {
+    background-color: #9297d1;
+  }
+
+
+
+
+.artg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 272px;
+    
+}
+
+.c-art1{
+    display: flex;
+    flex-direction: column;
+    background-color: #35385c;
+    border-radius: 25px;
+    width: 335px;
+    height: 300px;
+}
+
+
+
+.img-art{
+    width: 100%;
+    height: 145px;
+    border-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button-img1{
+    display: flex;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    background-color: #00da74;
+    color: #F9F9FA;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-style: none;
+    height: 25px;
+}
+
+.button-img1-1{
+    display: flex;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    background-color: #ffb52c;
+    color: #F9F9FA;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-style: none;
+    height: 25px;
+}
+
+.button-img1-1-1{
+    display: flex;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    background-color: rgb(255, 88, 28);
+    color: #F9F9FA;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border-style: none;
+    height: 25px;
+}
+
+.art-line1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.art-line1-1{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    color: #F9F9FA;
+}
+
+.img-per-art{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+h4{
+    color: #F9F9FA;
+    margin-top: 5px;
+}
+
+.art-line2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button-line2{
+    background-color: #35385c;
+    border: 1px solid #9297d1;
+    color: #9297d1;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.art-line2-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.art-line2-2-2{
+    color: #F9F9FA;
+    padding: 6px;
+}
+
+/* Edición de solo color de los botones
+de la primera fila de los articulos */
+
+.button-line2s{
+    background-color: #35385c;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.button-line2M{
+    background-color: #35385c;
+    border: 1px solid #6f25cf;
+    color: #6f25cf;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+/* STOP a la edicion de los botones
+ de la primera fila de articulos */
+ 
+
+ /* Edición de solo color de los botones
+de la segubda fila de los articulos */
+
+.button-line2MI{
+    background-color: #35385c;
+    border: 1px solid #00ff88;
+    color: #00ff88;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.button-line2A{
+    background-color: #35385c;
+    border: 1px solid #9297d1;
+    color: #9297d1;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+
+.button-line2N{
+    background-color: #35385c;
+    border: 1px solid #dd1d76;
+    color: #dd1d76;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
